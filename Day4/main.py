@@ -18,7 +18,6 @@ def full_inrange(np_arr):
 
 sum_1, sum_2 = 0, 0
 with open(file_path) as file:
-    buffer = []
     for line in file:
         line = line.strip()
         x = line.split(',')
